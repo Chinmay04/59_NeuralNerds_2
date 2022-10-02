@@ -122,4 +122,4 @@ def fert_recommend():
     return render_template('fertilizer-result.html', recommendation=response, title=title)
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)
