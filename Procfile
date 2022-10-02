@@ -1,1 +1,1 @@
-web: gunicorn app --log-level debug
+web: gunicorn run:app --log-level debug
