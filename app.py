@@ -8,8 +8,6 @@ import requests
 import config
 import pickle
 import io
-from PIL import Image
-from utils.model import ResNet9
 
 crop_recommendation_model_path = 'Models/rfmodel.pickle'
 crop_recommendation_model = pickle.load(open(crop_recommendation_model_path, 'rb'))
